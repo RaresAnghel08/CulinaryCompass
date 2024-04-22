@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%; /* sau orice alte dimensiuni dorești */
+    height: 100%;
+    background-color: white; /* sau orice alte stiluri de fundal */
+    overflow-y: auto; /* pentru a permite derularea conținutului */
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+.menu-container {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    float: right;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-item {
+    margin-top: 20px;
+}
+
+.menu-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.item-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
